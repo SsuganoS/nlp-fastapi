@@ -1,0 +1,6 @@
+FROM python:latest
+
+WORKDIR /app/nlp
+
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
